@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+	<title>WellBaked</title>
+	<%= stylesheet_link_tag 'scaffold' %>
+  <head>
+  <body>
+	<div id="page">
+	  <div id="header">
+		<span id="comp-name"><span id="well">Well</span><span id="baked">Baked</span></span>
+	  </div>
+	  <div id="info">
+		<div id="phones">
+
+		</div>
+		<div id="notes">
+			<span class="big-left">Power</span><span class="big-right">Panel</span>
+		</div>
+	  </div>
+	  <div id="main">
+		<div id="nav">
+		  <ul>
+			  <li>
+				  Home
+			  </li>
+			  <li>
+				  Products
+			  </li>
+			  <li>
+				  Support
+			  </li>
+			  <li>
+				  Contact
+			  </li>
+			  <li>
+				  About
+			  </li>
+		  </ul>
+		  <div class="clear"></div>
+		</div>
+		<div id="content">
+		  <%= yield %>
+		</div>
+	  </div>
+	  <div id="footer">
+		Footer
+	  </div>
+	</div>
+  </body>
+</html>
