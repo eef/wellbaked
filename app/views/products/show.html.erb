@@ -1,0 +1,33 @@
+<p>
+  <b>String:</b>
+  <%=h @product.name %>
+</p>
+
+<p>
+  <b>Tagline:</b>
+  <%=h @product.tagline %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @product.description %>
+</p>
+
+<p>
+  <b>Version number:</b>
+  <%=h @product.version_number %>
+</p>
+
+<p>
+  <b>Beta:</b>
+  <%=h @product.beta %>
+</p>
+
+<p>
+  <b>Download url:</b>
+  <%=h @product.download_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
